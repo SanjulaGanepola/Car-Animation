@@ -20,13 +20,13 @@ AudioPlayer carcrash;
   size (500,500);// set to the width and height of image
   
   //load the image into memory
-  img = loadImage("Road Background.jpg");
-  car1 = loadImage("Car going to the Right.gif");
-  car2 = loadImage("Car going to the Left.gif");
-  car3 = loadImage("Car going to the Right Rotated.gif");
-  car4 = loadImage("Car going to the Left Rotated.gif");
-  car5 = loadImage("Car going to the Right - Up Rotated.gif");
-  carboom = loadImage("Car Boom.gif");
+  img = loadImage("Images/Road Background.jpg");
+  car1 = loadImage("Images/Car going to the Right.gif");
+  car2 = loadImage("Images/Car going to the Left.gif");
+  car3 = loadImage("Images/Car going to the Right Rotated.gif");
+  car4 = loadImage("Images/Car going to the Left Rotated.gif");
+  car5 = loadImage("Images/Car going to the Right - Up Rotated.gif");
+  carboom = loadImage("Images/Car Boom.gif");
   
   //resize image
   img.resize(500,500);
@@ -38,8 +38,8 @@ AudioPlayer carcrash;
   carboom.resize(150,150);
   
   //load the sound into memory
-  carsound = minim.loadFile("car sound.mp3");
-  carcrash = minim.loadFile("car crash.mp3");
+  carsound = minim.loadFile("Sounds/car sound.mp3");
+  carcrash = minim.loadFile("Sounds/car crash.mp3");
  }
  
  void draw(){
